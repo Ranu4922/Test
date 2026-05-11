@@ -1,0 +1,18 @@
+[gd_scene load_steps=5 format=3]
+
+[ext_resource type="Script" path="res://scripts/world/main.gd" id="1_main"]
+[ext_resource type="Script" path="res://scripts/core/game_state.gd" id="2_gs"]
+[ext_resource type="Script" path="res://scripts/systems/build_system.gd" id="3_bs"]
+[ext_resource type="Script" path="res://scripts/ui/build_mode_controller.gd" id="4_bm"]
+
+[node name="Main" type="Node3D"]
+script = ExtResource("1_main")
+
+[node name="GameState" type="Node" parent="."]
+script = ExtResource("2_gs")
+
+[node name="BuildSystem" type="Node" parent="."]
+script = ExtResource("3_bs")
+
+[node name="BuildModeController" type="Node" parent="."]
+script = ExtResource("4_bm")
