@@ -1,0 +1,14 @@
+{
+  "house": {
+    "cost": { "wood": 8, "stone": 2 },
+    "allowed_terrain": ["meadow", "hill"]
+  },
+  "lumber_hut": {
+    "cost": { "wood": 4, "stone": 1 },
+    "allowed_terrain": ["forest"]
+  },
+  "farm": {
+    "cost": { "wood": 5 },
+    "allowed_terrain": ["meadow"]
+  }
+}
